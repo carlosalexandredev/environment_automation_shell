@@ -66,5 +66,3 @@ Ferramentas(){
     echo ${YELLOW}'Instalando DockStation...'${NC}
     echo ✅ ${GREEN}'Ferramentas de desenvolvimento instaladas com sucesso!'${NC}
 }
-
-Main

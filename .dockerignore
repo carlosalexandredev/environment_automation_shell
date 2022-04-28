@@ -1,0 +1,9 @@
+#Ignoring git and cache folders
+.git
+.gitignore
+
+docker-compose.yml
+AUX.txt
+
+/Volume
+
