@@ -1,0 +1,9 @@
+docker run -it --rm \
+--name shell3 \
+-it \
+-d \
+-v "${PWD}"/install_ambiente.sh:/app/install_ambiente.sh automacaoshell bash
+
+docker exec -it bba0357eb94bcd94fdc548ba5d6c639362bffbfb55709a1d55ec699f03262032 bash
+
+ocker run -it --rm --name shell5 -it -d -v "${PWD}"/install_ambiente.sh:/app/install_ambiente.sh automacaoshell /bin/bash
